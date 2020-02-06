@@ -1,0 +1,82 @@
+body {
+	height: 1130px;
+	/*background: linear-gradient(to bottom, rgb(163, 214, 245), rgb(93, 168, 213));*/
+	background-image: url("WebpageBackground.png");
+	background-color: rgb(151, 202, 160);
+	overflow-x: hidden;
+}
+
+h1 {
+	font-size: 45px;
+	text-align: center;
+	color: rgb(64, 92, 140);
+}
+
+.navbar-element {
+	color: white;
+	display: inline-block;
+	/*border-left: 2px solid rgb(203, 203, 246);*/
+	border-right: 2px solid rgb(203, 203, 246);
+	margin: 0;
+	margin-left: -4px;
+	width: 10%;
+	height: 40px;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+.navbar-element.first {
+	border-left: 2px solid rgb(203, 203, 246);
+	margin-left: 13%;
+}
+
+.navbar-element.active {
+	background-color: rgb(29, 199, 131);
+	cursor: default;
+}
+
+#navbar {
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(to right, rgb(78, 77, 199), rgb(55, 54, 171));
+	padding: 0;
+	border-radius: 7px;
+}
+
+#maincontent {
+	width: 80%;
+	left: 7.5%;
+	height: 900px;
+	margin-top: 25px;
+	position: absolute;
+	/*background: linear-gradient(to bottom, rgba(221, 215, 234, .75), rgba(199, 189, 219, .75));*/
+	background: rgba(184, 208, 219, .85);
+	border-radius: 15px;
+	border: 2px solid rgb(126, 170, 190);
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#maincontent h2 {
+	font-size: 35px;
+}
+
+#maincontent p {
+	font-size: 20px;
+}
+
+#footer {
+	position: absolute;
+	top: 1120px;
+	left: 25%;
+	width: 50%;
+	height: 25px;
+	text-align: center;
+	background: linear-gradient(to right, rgb(78, 77, 199), rgb(55, 54, 171));
+	color: white;
+	border-radius: 5px;
+	padding-top: 5px;
+}
