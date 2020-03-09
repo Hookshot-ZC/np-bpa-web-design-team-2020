@@ -10,5 +10,5 @@ var lightUpButton = function(btnID)
 
 var resetButton = function(btnID)
 {
-	document.getElementById(btnID).style.background = "rgb(78, 77, 199)";
+	document.getElementById(btnID).style.background = "rgb(78, 77, 199, 0)";
 }
