@@ -59,7 +59,7 @@ h1 {
 	padding-right: 30px;
 }
 
-#maincontent#constant-size {
+#maincontent.constant-size {
 	height: 900px;
 }
 
